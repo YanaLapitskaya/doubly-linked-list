@@ -82,7 +82,7 @@ class LinkedList {
         var curIndex=0;
         var curElem,prevElem,nextElem;
 
-        if((this.length===1)||(!this.length)) return;
+        if((this.length===1)||(!this.length)) return this;
 
         if(!curElem) {
             curElem=this._head;
